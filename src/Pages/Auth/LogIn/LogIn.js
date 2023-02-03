@@ -71,7 +71,7 @@ const LogIn = () => {
 
                 <button type="submit" className="btn active-btn mt-3 mb-3 btn-danger" disabled={formik.isSubmitting}>Log In</button>
                 <p className="or"><span>Don't have an account?</span></p>
-                <Link to="/signup" className="btn active-btn btn-dark mt-3 mb-3">Sign Up</Link>
+                <Link to="/react-movie-app/signup" className="btn active-btn btn-dark mt-3 mb-3">Sign Up</Link>
             </form>
         </div >
     </div >

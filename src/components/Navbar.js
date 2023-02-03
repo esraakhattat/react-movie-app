@@ -29,13 +29,13 @@ function Navbar() {
                                 <span className="btn text-light" onClick={()=>setContextLang(contextLang=="ar"?"en":"ar")} > {contextLang}</span>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/login">Log In</Link>
+                                <Link className="nav-link" to="/react-movie-app/login">Log In</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/signup">Sign Up</Link>
+                                <Link className="nav-link" to="/react-movie-app/signup">Sign Up</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link position-relative" to="/favourites"><i className="fa-solid fa-star"></i>
+                                <Link className="nav-link position-relative" to="/react-movie-app/favourites"><i className="fa-solid fa-star"></i>
                                 { favCount? <span className="position-absolute top-10 start-90 translate-middle badge rounded-pill bg-warning">
                                     {favCount}
                                 </span>:null}

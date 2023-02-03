@@ -143,7 +143,7 @@ function SignUp() {
 
                     <button type="submit" className="btn active-btn mt-3 mb-3 btn-danger"  disabled = {error.username || error.email ||error.name||error.confirm||error.password}>Sign Up</button>
                     <p className="or"><span>Don't have an account?</span></p>
-                    <Link to={"/login"} className="btn active-btn btn-dark mt-3 mb-3">Log In</Link>
+                    <Link to={"/react-movie-app/login"} className="btn active-btn btn-dark mt-3 mb-3">Log In</Link>
                 </form>
             </div>
         </div>

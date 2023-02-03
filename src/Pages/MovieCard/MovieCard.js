@@ -28,9 +28,9 @@ function MovieCard(props) {
     return (
         <>
             <div className={contextTheme=="dark"?"card text-bg-dark m-3":"card m-3"} style={{ "width": "18rem" }}>
-                <Link className='movie-link' to={`/movie/${movie.id}`}><img src={`${base_url}${movie.poster_path}`} className="card-img-top img-height" alt={movie.title} /></Link>
+                <Link className='movie-link' to={`/react-movie-app/movie/${movie.id}`}><img src={`${base_url}${movie.poster_path}`} className="card-img-top img-height" alt={movie.title} /></Link>
                 <div className="card-body">
-                    <Link className={contextTheme=="dark"?'movie-link':"movie-link-dark"} to={`/movie/${movie.id}`}><h5 className="card-title">{movie.title}</h5></Link>
+                    <Link className={contextTheme=="dark"?'movie-link':"movie-link-dark"} to={`/react-movie-app/movie/${movie.id}`}><h5 className="card-title">{movie.title}</h5></Link>
                     <p className="card-text desc">{movie.overview}</p>
                     <i onClick={addOrRemoveFromFavourite} className={starClass}></i>
                 </div>

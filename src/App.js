@@ -21,10 +21,10 @@ function App() {
           <Navbar />
           <Switch>
             <Route exact path={"/react-movie-app"} component={MoviesList}></Route>
-            <Route exact path={"/signup"} component={SignUp}></Route>
-            <Route exact path={"/login"} component={LogIn}></Route>
-            <Route exact path={"/favourites"} component={Favourites}></Route>
-            <Route exact path={"/movie/:id"} component={MovieDetails}></Route>
+            <Route exact path={"/react-movie-app/signup"} component={SignUp}></Route>
+            <Route exact path={"/react-movie-app/login"} component={LogIn}></Route>
+            <Route exact path={"/react-movie-app/favourites"} component={Favourites}></Route>
+            <Route exact path={"/react-movie-app/movie/:id"} component={MovieDetails}></Route>
             <Route exact path={"*"} component={NotFound}></Route>
           </Switch>
         </BrowserRouter>

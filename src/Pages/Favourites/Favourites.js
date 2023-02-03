@@ -16,7 +16,7 @@ function Favourites() {
                 <div className="row">
                     {
                     favouritesList.length!=0? favouritesList.map((movie) => <div key={movie.id} className="col-md-6 col-sm-12 col-lg-3"><FavouriteCard favouriteMovie={movie.id} /></div>):<div className="text-center margin col-6"><img className="img-f" src={wish}/><h3 className={contextTheme=="dark"?"text-light mt-3":"text-dark mt-3"}>No Movies added to Favourites</h3>
-                    <Link to='/' ><span className="mt-3 btn btn-danger">Go To Home Page</span></Link>
+                    <Link to='/react-movie-app' ><span className="mt-3 btn btn-danger">Go To Home Page</span></Link>
                     </div>
                     
                     }
