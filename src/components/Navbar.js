@@ -16,7 +16,7 @@ function Navbar() {
         <>
             <nav className="navbar navbar-expand-lg bg-danger navbar-dark">
                 <div className="container">
-                    <Link className="navbar-brand" to="/">Movies</Link>
+                    <Link className="navbar-brand" to="/react-movie-app">Movies</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

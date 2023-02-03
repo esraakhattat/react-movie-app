@@ -20,7 +20,7 @@ function App() {
         <BrowserRouter>
           <Navbar />
           <Switch>
-            <Route exact path={"/"} component={MoviesList}></Route>
+            <Route exact path={"/react-movie-app"} component={MoviesList}></Route>
             <Route exact path={"/signup"} component={SignUp}></Route>
             <Route exact path={"/login"} component={LogIn}></Route>
             <Route exact path={"/favourites"} component={Favourites}></Route>
