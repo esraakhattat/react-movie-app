@@ -1,0 +1,24 @@
+.trash-icon{
+    cursor: pointer;
+    color:#dc3545;
+    position: absolute;
+    top:5px;
+    right:5px;
+    font-size: 25px;
+}
+.trash-icon:hover{
+    color:#dc35459b
+}
+.background{
+    height: 93vh;
+}
+.no{
+    font-size: 50px;
+}
+.img-f{
+    width:10%;
+}
+.margin{
+    margin: auto;
+    margin-top: 200px;
+}

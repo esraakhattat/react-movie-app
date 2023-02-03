@@ -1,0 +1,27 @@
+.active-btn{
+    border-radius: 5px;
+    padding: 8px 25px;
+    text-decoration: none;
+    width:100%;
+}
+
+.log-in-section {
+    background-color: rgba(255, 255, 255, 0.749);
+    border: #001e0033 1px solid;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 1px 1px 5px rgba(187, 187, 187, 0.356);
+    /* margin-top: 100px; */
+    margin: auto;
+}
+.or {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+.or span {
+    background: #fff;    
+    padding: 0 10px;
+}

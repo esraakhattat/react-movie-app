@@ -1,0 +1,30 @@
+.desc{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.movie-link{
+    text-decoration: none;
+    color: #eee;
+}
+.movie-link-dark{
+    text-decoration: none;
+    color: #333;
+}
+.movie-link:hover,.movie-link-dark:hover{
+    color: #dc3545;
+}
+.card{
+    border: none;
+}
+.fav-icon{
+    cursor: pointer;
+    color:#ffbb12;
+    position: absolute;
+    top:5px;
+    right:5px;
+    font-size: 25px;
+}
+.fav-icon:hover{
+    color:#ffbc129b
+}

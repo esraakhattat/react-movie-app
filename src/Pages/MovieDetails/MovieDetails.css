@@ -1,0 +1,11 @@
+.fav-icon-details{
+    cursor: pointer;
+    color:#ffbb12;
+    position: absolute;
+    top:5px;
+    left:5px;
+    font-size: 25px;
+}
+.fav-icon-details:hover{
+    color:#ffbc129b
+}
